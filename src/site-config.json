@@ -1,0 +1,536 @@
+{
+  "business": {
+    "name": "Horizon Flooring",
+    "phone": "555-flo-r90",
+    "category": "flooring",
+    "city": "Columbus",
+    "state": "OH"
+  },
+  "design": {
+    "preset": {
+      "id": "flooring-trust-navy",
+      "categoryGroup": "flooring",
+      "name": "Trust Navy",
+      "recipeFile": "flooring/trust-navy.astro",
+      "colors": {
+        "primary": "#92400E",
+        "primaryDark": "#78350F",
+        "primaryLight": "#e4cfc3",
+        "secondary": "#7c360c",
+        "accent": "#D97706",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#92400E",
+        "surface": "#F4F6F8",
+        "text": "#1A1A2E",
+        "textLight": "#4A5568",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "DM Serif Display",
+        "headingWeight": "700",
+        "bodyFont": "DM Sans",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "dark",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "flooring/trust-navy"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Premium Flooring for Columbus Homes",
+      "heroSubline": "Transform your space with flooring designed for Ohio's climate. Expert installations that withstand freeze-thaw cycles and humid summers.",
+      "aboutTitle": "Our Columbus Flooring Story",
+      "aboutText": [
+        "Founded in 2012, Horizon Flooring began as a small crew serving German Village's historic homes. We've grown to become Franklin County's trusted flooring specialists, preserving the character of Columbus neighborhoods while incorporating modern durability.",
+        "Our approach combines meticulous craftsmanship with climate-appropriate materials. We test every product against Ohio's extreme seasonal shifts before recommending it to homeowners.",
+        "When we're not installing floors, you'll find our team volunteering at Habitat for Humanity builds or sponsoring local arts events in the Short North."
+      ],
+      "valueProps": [
+        {
+          "title": "Climate-Adaptive Materials",
+          "description": "We use flooring specifically engineered to handle Columbus' freeze-thaw cycles and summer humidity without warping or cracking."
+        },
+        {
+          "title": "Neighborhood Specialists",
+          "description": "From Dublin's upscale subdivisions to Clintonville's historic homes, we understand each area's unique architectural needs."
+        },
+        {
+          "title": "Full-Service Solutions",
+          "description": "Complete projects from subfloor prep to final molding, including moisture barrier installation for Ohio's clay soil areas."
+        },
+        {
+          "title": "Local Supply Chain",
+          "description": "90% of our materials come from Midwestern manufacturers, reducing lead times and supporting regional businesses."
+        }
+      ],
+      "ctaHeadline": "Schedule Your Free Flooring Assessment",
+      "ctaSubline": "Our Columbus-based consultants will evaluate your space and recommend the perfect flooring solution for your lifestyle and budget."
+    },
+    "services": [
+      {
+        "slug": "hardwood-floor-refinishing",
+        "name": "Hardwood Floor Refinishing",
+        "shortDescription": "Restore your original hardwood to like-new condition while preserving its historic character.",
+        "description": "Columbus homes built between 1920-1950 often contain beautiful original hardwood hidden under layers of carpet. Our multi-step refinishing process brings these floors back to life while addressing common Ohio climate challenges.\n\nWe begin by testing for moisture content - crucial in our humid summers and dry winters. After careful sanding with dust containment systems, we apply premium finishes that resist scratching from winter grit and salt. For homes in flood-prone areas like the Olentangy River valley, we can incorporate water-resistant sealants.\n\nSpecial techniques preserve delicate grain patterns in older homes, particularly important for German Village's historic properties. The final buffing creates a lustrous shine that lasts through countless Ohio seasons.",
+        "process": [
+          "Step 1: Comprehensive moisture testing and floor evaluation",
+          "Step 2: Dustless sanding with industrial equipment",
+          "Step 3: Application of climate-appropriate sealants and finishes",
+          "Step 4: Final buffing and protective coating"
+        ],
+        "benefits": [
+          "Revives original flooring instead of replacement",
+          "Increases home value by preserving historic elements",
+          "Specialized finishes for pet-friendly homes",
+          "Reduces allergens trapped in old floor surfaces"
+        ],
+        "faq": [
+          {
+            "question": "How long does refinishing typically take in my Columbus home?",
+            "answer": "Most projects take 3-5 days depending on square footage and the home's age. We schedule around Ohio's humidity patterns for optimal drying."
+          },
+          {
+            "question": "Can you match my existing hardwood in newer additions?",
+            "answer": "Yes, we maintain relationships with regional mills to source period-appropriate wood for seamless expansions in homes throughout Franklin County."
+          }
+        ]
+      },
+      {
+        "slug": "luxury-vinyl-plank-installation",
+        "name": "Luxury Vinyl Plank Installation",
+        "shortDescription": "Waterproof flooring perfect for Ohio basements and high-traffic areas.",
+        "description": "Luxury vinyl plank (LVP) has become the top choice for Columbus homeowners dealing with our climate extremes. Unlike traditional materials, LVP won't warp when basement humidity rises in July or crack during January's deep freezes.\n\nWe specialize in installations that handle the unique challenges of Central Ohio homes. In Dublin's newer constructions, we focus on seamless transitions between rooms. For Westerville's ranch homes, we often incorporate underlayment to compensate for slightly uneven slabs. Our Grove City clients appreciate LVP's durability against winter salt and kids' foot traffic.\n\nEvery installation includes moisture barrier systems - critical in areas with clay soil that shifts seasonally. We offer premium scratch-resistant finishes that maintain their beauty despite Midwest living.",
+        "process": [
+          "Step 1: Subfloor preparation and moisture testing",
+          "Step 2: Acclimation of materials to your home's environment",
+          "Step 3: Precision cutting and installation",
+          "Step 4: Moldings and transition pieces fitted"
+        ],
+        "benefits": [
+          "100% waterproof for basements and kitchens",
+          "Warmer underfoot than tile in winter months",
+          "Withstands freeze-thaw expansion better than laminate",
+          "Pet-friendly textured options prevent slips"
+        ],
+        "faq": [
+          {
+            "question": "How does LVP handle Columbus' temperature swings?",
+            "answer": "Our premium planks have a rigid core designed to expand/contract minimally, preventing gaps even when your thermostat fluctuates between seasons."
+          },
+          {
+            "question": "Can you install over my existing concrete slab?",
+            "answer": "Yes, after proper evaluation. We've successfully installed in hundreds of Central Ohio basements, including homes near the Scioto River's flood plains."
+          }
+        ]
+      },
+      {
+        "slug": "tile-flooring",
+        "name": "Tile Flooring",
+        "shortDescription": "Durable ceramic and porcelain solutions for Ohio's active households.",
+        "description": "Tile flooring offers ideal performance for Columbus homes dealing with muddy winters and humid summers. Our installations combine beauty with practical solutions for Midwest living.\n\nIn entryways, we use textured tiles that provide traction when wet - a must for Upper Arlington homes welcoming snow-covered boots. For sunrooms overlooking the Scioto Mile, we install UV-resistant tiles that won't fade. Bathrooms receive special attention with our mold-prevention underlayment systems.\n\nWe source tiles from regional manufacturers whenever possible, including stunning Ohio-made artisan pieces perfect for Clintonville's eclectic homes. Every installation includes proper slope considerations to prevent water pooling - especially important in older homes where floors may not be perfectly level.",
+        "process": [
+          "Step 1: Structural assessment and substrate preparation",
+          "Step 2: Custom layout planning with homeowner input",
+          "Step 3: Precision cutting with waterjet technology",
+          "Step 4: Grouting with stain-resistant formulas"
+        ],
+        "benefits": [
+          "Easiest flooring to clean after rainy seasons",
+          "Cool surface feels great in summer",
+          "Withstands heavy furniture moving",
+          "Hypoallergenic and mold-resistant"
+        ],
+        "faq": [
+          {
+            "question": "Are tile floors too cold for Ohio winters?",
+            "answer": "We can incorporate radiant heating systems or recommend area rugs for warmth. Many clients find the thermal mass actually helps maintain consistent temperatures year-round."
+          },
+          {
+            "question": "How do you prevent cracked tiles during freeze-thaw cycles?",
+            "answer": "Our premium thinset mortar contains flexible polymers, and we leave proper expansion gaps - techniques perfected through hundreds of Central Ohio installations."
+          }
+        ]
+      },
+      {
+        "slug": "carpet-installation",
+        "name": "Carpet Installation",
+        "shortDescription": "Plush, durable carpets that stand up to Midwest family life.",
+        "description": "Nothing beats carpet for warmth during Columbus' chilly winters or sound dampening in multi-level homes. We've perfected carpet installations that withstand Ohio's unique challenges while maintaining luxurious comfort.\n\nFor families in Hilliard's active neighborhoods, we recommend stain-resistant fibers that handle everything from soccer cleats to spilled juice. In condos near Nationwide Arena, we use premium underlayments that reduce noise transfer between units. Our pet-friendly options include special padding that resists odors - a favorite among German Village dog owners.\n\nEvery installation begins with subfloor inspection and moisture testing. We take extra care in basements and over concrete slabs, using vapor barriers to prevent musty smells during humid summers. The final stretching ensures your carpet stays smooth and ripple-free for years.",
+        "process": [
+          "Step 1: Subfloor preparation and moisture barrier installation",
+          "Step 2: Precision measuring and custom cutting",
+          "Step 3: Professional stretching and seaming",
+          "Step 4: Final trimming and edge finishing"
+        ],
+        "benefits": [
+          "Instant warmth for cold winter mornings",
+          "Sound absorption for busy households",
+          "Soft landing for kids and pets",
+          "Improves indoor air quality with proper padding"
+        ],
+        "faq": [
+          {
+            "question": "How do you prevent carpet mold in our humid summers?",
+            "answer": "We use antimicrobial padding and leave proper ventilation space around edges - techniques developed through 12 years of serving the Columbus area."
+          },
+          {
+            "question": "What's the best carpet for homes with Ohio's winter salt?",
+            "answer": "We recommend solution-dyed nylon with a textured pattern that hides grit until vacuuming. It's become our top seller in Worthington's established neighborhoods."
+          }
+        ]
+      },
+      {
+        "slug": "basement-flooring",
+        "name": "Basement Flooring",
+        "shortDescription": "Specialized solutions for Columbus' below-grade spaces.",
+        "description": "Ohio basements present unique flooring challenges - from summer humidity to occasional seepage. We've developed specialized solutions that transform these often-underutilized spaces into comfortable living areas.\n\nOur process begins with comprehensive moisture testing using equipment calibrated for Central Ohio's clay soil conditions. For homes near the Olentangy watershed, we often recommend elevated subfloor systems that allow airflow beneath flooring. In Dublin's newer developments, we install dimpled membranes that redirect minor moisture.\n\nLuxury vinyl plank remains our most popular choice, but we also offer ceramic tile with radiant heating for year-round comfort. Every installation includes detailed transition work to upper levels and proper expansion gaps to accommodate seasonal shifts in your home's foundation.",
+        "process": [
+          "Step 1: 72-hour moisture evaluation and pH testing",
+          "Step 2: Custom moisture mitigation plan",
+          "Step 3: Subfloor preparation specific to basement type",
+          "Step 4: Installation with climate-adaptive materials"
+        ],
+        "benefits": [
+          "Creates usable living space year-round",
+          "Prevents musty basement odors",
+          "Warm underfoot even in winter",
+          "Withstands occasional minor seepage"
+        ],
+        "faq": [
+          {
+            "question": "Can you install flooring if my basement has had minor water in the past?",
+            "answer": "Yes, with proper preparation. We've successfully transformed hundreds of Columbus basements using specialized moisture control systems tailored to each home's history."
+          },
+          {
+            "question": "How long does basement flooring typically last in our climate?",
+            "answer": "Our installations average 15-20 years thanks to meticulous preparation. We warranty all basement work for 5 years against climate-related issues."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Sarah K.",
+        "rating": 5,
+        "service": "Hardwood Floor Refinishing",
+        "text": "The team restored our 1937 German Village hardwood to stunning condition. They matched the original finish perfectly and addressed all the squeaks that developed over 80 Ohio winters. The floors look brand new but maintain their historic charm.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "James T.",
+        "rating": 5,
+        "service": "Luxury Vinyl Plank Installation",
+        "text": "Our Dublin basement flooded twice last spring, ruining the carpet. Horizon installed LVP that looks like real wood but handles moisture perfectly. When we had another heavy rain, the floors wiped clean with no damage. Life-changing for Ohio homeowners!",
+        "date": "2025-02-28"
+      },
+      {
+        "name": "Megan R.",
+        "rating": 5,
+        "service": "Tile Flooring",
+        "text": "The tile in our Clintonville sunroom had cracked from years of temperature swings. Horizon installed gorgeous Ohio-made tiles with a special underlayment system. Two winters later, not a single crack despite the wild temperature changes.",
+        "date": "2025-01-10"
+      },
+      {
+        "name": "David L.",
+        "rating": 5,
+        "service": "Basement Flooring",
+        "text": "After three failed attempts with other companies, Horizon finally gave us a usable basement floor. Their moisture testing found issues others missed, and the LVP they installed has handled our humid summers perfectly. Worth every penny.",
+        "date": "2024-11-22"
+      },
+      {
+        "name": "Lisa M.",
+        "rating": 5,
+        "service": "Carpet Installation",
+        "text": "We needed carpet that could survive two kids and a golden retriever in our Hilliard home. Horizon's recommendation has stood up to a year of muddy paws and juice spills while still looking great. The padding makes it so comfortable underfoot.",
+        "date": "2024-10-05"
+      },
+      {
+        "name": "Thomas W.",
+        "rating": 5,
+        "service": "Hardwood Floor Refinishing",
+        "text": "Our Worthington colonial's floors had darkened unevenly over decades. Horizon brought them back to their original honey tone and used a finish that doesn't show winter salt marks. They worked around our antique furniture with incredible care.",
+        "date": "2024-09-18"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Columbus Flooring Experts | Horizon Flooring OH",
+        "description": "Local flooring specialists serving Central Ohio with climate-adaptive solutions for hardwood, LVP, tile and carpet installations."
+      },
+      "about": {
+        "title": "About Our Columbus Flooring Company | Horizon Flooring",
+        "description": "Learn how our locally-owned flooring business brings 12+ years of experience to homes throughout Franklin County, OH."
+      },
+      "services": {
+        "title": "Flooring Services in Columbus OH | Horizon Flooring",
+        "description": "Comprehensive flooring solutions including refinishing, LVP, tile and carpet installations designed for Ohio's climate."
+      },
+      "contact": {
+        "title": "Contact Columbus Flooring Experts | Horizon Flooring",
+        "description": "Schedule your free flooring consultation with Central Ohio's most trusted installation specialists."
+      },
+      "reviews": {
+        "title": "Columbus Flooring Reviews | Horizon Flooring OH",
+        "description": "See what homeowners throughout Franklin County say about their flooring projects with our local team."
+      },
+      "service-areas": {
+        "title": "Flooring Service Areas Near Columbus | Horizon",
+        "description": "We serve Dublin, Westerville, Hilliard, Grove City and throughout Central Ohio with premium flooring solutions."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Dublin",
+        "slug": "dublin-oh",
+        "state": "OH",
+        "content": "Horizon Flooring proudly serves Dublin, OH, a thriving community known for its upscale subdivisions built from the 1980s to the 2000s. With cold, snowy winters that can cause freeze-thaw damage to flooring, our durable and weather-resistant solutions are perfect for Dublin homeowners. Whether you're updating a classic colonial or modernizing a newer build, we offer premium materials designed to withstand Ohio's harsh climate while enhancing your home's elegance.",
+        "localContext": "Dublin features upscale neighborhoods with a mix of classic and contemporary homes, often requiring high-quality flooring solutions.",
+        "nearbyAreas": [
+          "Hilliard",
+          "Worthington",
+          "Powell"
+        ]
+      },
+      {
+        "city": "Westerville",
+        "slug": "westerville-oh",
+        "state": "OH",
+        "content": "Westerville, OH, is home to established suburbs primarily built in the 1970s and 1980s, making flooring updates a common need for residents. Horizon Flooring specializes in solutions that combat freeze-thaw damage from cold, snowy winters, ensuring long-lasting beauty and functionality. From timeless hardwood to resilient luxury vinyl, we help Westerville homeowners choose flooring that matches their home's character and stands up to seasonal challenges.",
+        "localContext": "Westerville's mature neighborhoods often feature original flooring that may need replacement due to wear or weather damage.",
+        "nearbyAreas": [
+          "Gahanna",
+          "New Albany",
+          "Lewis Center"
+        ]
+      },
+      {
+        "city": "Hilliard",
+        "slug": "hilliard-oh",
+        "state": "OH",
+        "content": "Hilliard, OH, is a family-friendly community with subdivisions predominantly built in the 1980s and 1990s. Horizon Flooring understands the demands of active households and Ohio's cold, snowy winters, which can lead to flooring wear and tear. We provide durable, stylish options like engineered hardwood and waterproof laminate, perfect for Hilliard's busy families seeking both practicality and aesthetic appeal.",
+        "localContext": "Hilliard's homes often feature original flooring that may need upgrades to handle modern lifestyles and weather conditions.",
+        "nearbyAreas": [
+          "Dublin",
+          "Columbus",
+          "Galloway"
+        ]
+      },
+      {
+        "city": "Grove City",
+        "slug": "grove-city-oh",
+        "state": "OH",
+        "content": "Grove City, OH, offers affordable housing options, primarily from the 1970s and 1980s, making flooring updates a smart investment for homeowners. Horizon Flooring provides budget-friendly yet durable solutions to combat freeze-thaw damage from cold winters. Whether you're renovating a starter home or upgrading a long-term residence, we offer materials like luxury vinyl plank and carpet that balance cost, comfort, and resilience.",
+        "localContext": "Grove City's value-focused homes often benefit from flooring upgrades to improve both function and resale potential.",
+        "nearbyAreas": [
+          "Columbus",
+          "London",
+          "South Bloomfield"
+        ]
+      },
+      {
+        "city": "Worthington",
+        "slug": "worthington-oh",
+        "state": "OH",
+        "content": "Worthington, OH, blends historic charm with modern living, requiring flooring that complements its diverse architectural styles. Horizon Flooring caters to Worthington's unique needs, offering materials that withstand cold, snowy winters and freeze-thaw cycles. From classic hardwood for historic homes to sleek tile for contemporary spaces, we help homeowners preserve Worthington's character while ensuring durability.",
+        "localContext": "Worthington's mix of historic and newer homes demands versatile flooring solutions.",
+        "nearbyAreas": [
+          "Columbus",
+          "Dublin",
+          "Powell"
+        ]
+      },
+      {
+        "city": "Gahanna",
+        "slug": "gahanna-oh",
+        "state": "OH",
+        "content": "Gahanna, OH, is a growing community with a mix of older and newer homes, making flooring updates a priority for many residents. Horizon Flooring provides solutions tailored to Ohio's cold winters, preventing freeze-thaw damage while enhancing home aesthetics. Whether you're refreshing a 1970s ranch or a modern build, we offer options like waterproof laminate and tile that suit Gahanna's diverse housing stock.",
+        "localContext": "Gahanna's evolving neighborhoods often require flooring that balances durability and style.",
+        "nearbyAreas": [
+          "New Albany",
+          "Westerville",
+          "Columbus"
+        ]
+      },
+      {
+        "city": "Powell",
+        "slug": "powell-oh",
+        "state": "OH",
+        "content": "Powell, OH, is known for its upscale homes and spacious properties, often requiring high-end flooring solutions. Horizon Flooring specializes in premium materials like exotic hardwoods and stone tile, designed to endure cold, snowy winters and freeze-thaw cycles. Whether you're building a custom home or renovating an existing property, we help Powell homeowners achieve timeless elegance with weather-resistant flooring.",
+        "localContext": "Powell's luxury homes demand flooring that combines sophistication with climate resilience.",
+        "nearbyAreas": [
+          "Dublin",
+          "Worthington",
+          "Delaware"
+        ]
+      },
+      {
+        "city": "New Albany",
+        "slug": "new-albany-oh",
+        "state": "OH",
+        "content": "New Albany, OH, features a mix of executive homes and planned communities, where flooring quality is a top priority. Horizon Flooring offers upscale solutions like wide-plank hardwood and designer tile, built to withstand Ohio's harsh winters. Whether you're in a modern estate or a traditional colonial, we provide New Albany homeowners with flooring that elevates their space while resisting freeze-thaw damage.",
+        "localContext": "New Albany's high-end homes require flooring that matches their premium standards.",
+        "nearbyAreas": [
+          "Gahanna",
+          "Westerville",
+          "Johnstown"
+        ]
+      },
+      {
+        "city": "Lewis Center",
+        "slug": "lewis-center-oh",
+        "state": "OH",
+        "content": "Lewis Center, OH, is a fast-growing area with newer constructions and expanding subdivisions. Horizon Flooring meets the needs of Lewis Center homeowners with durable, low-maintenance options like luxury vinyl and engineered hardwood. These materials are ideal for handling cold, snowy winters and freeze-thaw cycles, ensuring your floors remain beautiful and functional for years to come.",
+        "localContext": "Lewis Center's newer homes often benefit from modern flooring designed for longevity.",
+        "nearbyAreas": [
+          "Delaware",
+          "Powell",
+          "Westerville"
+        ]
+      },
+      {
+        "city": "Delaware",
+        "slug": "delaware-oh",
+        "state": "OH",
+        "content": "Delaware, OH, offers a blend of historic homes and new developments, each with unique flooring needs. Horizon Flooring provides versatile solutions, from reclaimed wood for vintage properties to waterproof options for active families. With cold winters causing freeze-thaw damage, we ensure Delaware homeowners receive flooring that combines charm, durability, and climate resistance.",
+        "localContext": "Delaware's diverse housing styles require adaptable flooring choices.",
+        "nearbyAreas": [
+          "Powell",
+          "Lewis Center",
+          "Sunbury"
+        ]
+      },
+      {
+        "city": "Reynoldsburg",
+        "slug": "reynoldsburg-oh",
+        "state": "OH",
+        "content": "Reynoldsburg, OH, is a family-oriented community with a range of housing styles, from mid-century homes to newer builds. Horizon Flooring helps Reynoldsburg residents combat cold winters and freeze-thaw damage with resilient materials like laminate and tile. Whether you're updating a split-level or a contemporary home, we offer flooring that withstands daily wear while staying stylish.",
+        "localContext": "Reynoldsburg's varied homes need flooring that balances affordability and durability.",
+        "nearbyAreas": [
+          "Pickerington",
+          "Gahanna",
+          "Columbus"
+        ]
+      },
+      {
+        "city": "Pickerington",
+        "slug": "pickerington-oh",
+        "state": "OH",
+        "content": "Pickerington, OH, is a rapidly growing suburb with a mix of older and newer homes, making flooring updates a common project. Horizon Flooring provides solutions tailored to Ohio's cold winters, such as scratch-resistant laminate and moisture-proof vinyl. Whether you're in a 1980s ranch or a new construction, we help Pickerington homeowners choose flooring that stands up to freeze-thaw cycles and busy households.",
+        "localContext": "Pickerington's expanding neighborhoods often require flooring that adapts to modern living.",
+        "nearbyAreas": [
+          "Reynoldsburg",
+          "Canal Winchester",
+          "Columbus"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "hardwood-floor-refinishing": "/images/service-hardwood-floor-refinishing.webp",
+      "luxury-vinyl-plank-installation": "/images/service-luxury-vinyl-plank-installation.webp",
+      "tile-flooring": "/images/service-tile-flooring.webp",
+      "carpet-installation": "/images/service-carpet-installation.webp",
+      "basement-flooring": "/images/service-basement-flooring.webp"
+    },
+    "servicesResponsive": {
+      "hardwood-floor-refinishing": {
+        "src": "/images/service-hardwood-floor-refinishing.webp",
+        "srcset": "/images/service-hardwood-floor-refinishing-400w.webp 400w, /images/service-hardwood-floor-refinishing-800w.webp 800w, /images/service-hardwood-floor-refinishing-1200w.webp 1200w, /images/service-hardwood-floor-refinishing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "luxury-vinyl-plank-installation": {
+        "src": "/images/service-luxury-vinyl-plank-installation.webp",
+        "srcset": "/images/service-luxury-vinyl-plank-installation-400w.webp 400w, /images/service-luxury-vinyl-plank-installation-800w.webp 800w, /images/service-luxury-vinyl-plank-installation-1200w.webp 1200w, /images/service-luxury-vinyl-plank-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "tile-flooring": {
+        "src": "/images/service-tile-flooring.webp",
+        "srcset": "/images/service-tile-flooring-400w.webp 400w, /images/service-tile-flooring-800w.webp 800w, /images/service-tile-flooring-1200w.webp 1200w, /images/service-tile-flooring.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "carpet-installation": {
+        "src": "/images/service-carpet-installation.webp",
+        "srcset": "/images/service-carpet-installation-400w.webp 400w, /images/service-carpet-installation-800w.webp 800w, /images/service-carpet-installation-1200w.webp 1200w, /images/service-carpet-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "basement-flooring": {
+        "src": "/images/service-basement-flooring.webp",
+        "srcset": "/images/service-basement-flooring-400w.webp 400w, /images/service-basement-flooring-800w.webp 800w, /images/service-basement-flooring-1200w.webp 1200w, /images/service-basement-flooring.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
